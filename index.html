@@ -692,27 +692,19 @@ ul.flist li::before{content:'→';color:#EB7C22;font-weight:800;flex-shrink:0;}
 <!-- =========== SLIDE 10: ЧЕК-ЛИСТ =========== -->
 <div class="slide" id="s10">
   <div class="glow" style="width:280px;height:280px;background:#FFD30022;bottom:-40px;right:120px;"></div>
-  <div style="display:grid;grid-template-columns:1fr 1fr;gap:32px;height:100%;">
-    <div style="padding-top:36px;display:flex;flex-direction:column;gap:14px;">
+  <div style="display:flex;flex-direction:column;gap:16px;height:100%;padding-top:8px;">
+    <div style="display:flex;align-items:center;justify-content:space-between;">
       <div>
         <div class="slide-tag">Фінал</div>
-        <h2 class="stitle" style="margin-top:8px;margin-bottom:6px;">Чек-лист<br>самоперевірки</h2>
+        <h2 class="stitle" style="margin-top:6px;margin-bottom:2px;">Чек-лист самоперевірки</h2>
         <div style="font-size:12px;color:#999;">Натисни на кожен пункт, коли впевнений у відповіді</div>
       </div>
-      <div style="margin-top:auto;">
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;">
-          <div style="font-size:10px;font-weight:700;color:#AAA;letter-spacing:.8px;text-transform:uppercase;">Прогрес знань</div>
-          <div id="xp-display2" style="background:#FFF9C4;border:1px solid #FFD300;border-radius:20px;padding:2px 10px;font-size:12px;font-weight:700;color:#B8860B;">0 / 6 ✓</div>
-        </div>
-        <div class="xp-bar-track"><div class="xp-bar-fill" id="xp-fill2" style="width:0%;"></div></div>
-      </div>
-      <div style="background:white;border-radius:14px;padding:14px 16px;box-shadow:0 2px 10px rgba(0,0,0,.07);">
-        <div style="font-size:11px;color:#888;margin-bottom:6px;">🔗 Наступний крок:</div>
-        <div style="font-size:12px;font-weight:700;color:#1A1A1A;">Переглянь брифи PRO1–PRO6</div>
-        <div style="font-size:11px;color:#BBB;margin-top:4px;">та відео-пояснення в базі знань</div>
+      <div style="text-align:right;">
+        <div id="xp-display2" style="background:#FFF9C4;border:1px solid #FFD300;border-radius:20px;padding:4px 14px;font-size:14px;font-weight:800;color:#B8860B;">0 / 6 ✓</div>
+        <div class="xp-bar-track" style="width:160px;margin-top:8px;"><div class="xp-bar-fill" id="xp-fill2" style="width:0%;"></div></div>
       </div>
     </div>
-    <div style="padding-top:36px;display:flex;flex-direction:column;justify-content:center;">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;flex:1;">
       <div class="check-item" onclick="toggleCheck2(this)"><div class="check-box">✓</div><div class="check-text">Скільки блоків і місяців в Основному курсі?</div></div>
       <div class="check-item" onclick="toggleCheck2(this)"><div class="check-box">✓</div><div class="check-text">З яких 7 елементів складається один блок?</div></div>
       <div class="check-item" onclick="toggleCheck2(this)"><div class="check-box">✓</div><div class="check-text">Коли стартує PRO3 і як він закриває беклог?</div></div>
@@ -720,6 +712,9 @@ ul.flist li::before{content:'→';color:#EB7C22;font-weight:800;flex-shrink:0;}
       <div class="check-item" onclick="toggleCheck2(this)"><div class="check-box">✓</div><div class="check-text">Яка різниця між зрізом знань і пробним НМТ?</div></div>
       <div class="check-item" onclick="toggleCheck2(this)"><div class="check-box">✓</div><div class="check-text">Де знайти бриф свого потоку PRO?</div></div>
     </div>
+    <a href="https://docs.google.com/document/d/1_ieSEWDDnvks7lOgfVa7gB8CqSpW0Bmb9ovMwn--NIo/edit?tab=t.ysfhyw502sqa" target="_blank" style="display:flex;align-items:center;gap:12px;background:#FFFDE7;border:1px solid #FFD300;border-radius:12px;padding:12px 18px;text-decoration:none;color:#5A4A00;font-size:13px;font-weight:700;">
+      <span style="font-size:18px;">📖</span> Книга відділу продукту <span style="margin-left:auto;color:#B8860B;">Відкрити →</span>
+    </a>
   </div>
 </div>
 
